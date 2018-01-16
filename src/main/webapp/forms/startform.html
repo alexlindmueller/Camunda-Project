@@ -1,0 +1,139 @@
+<form role="form" name="invoiceForm"
+      class="form-horizontal">
+	 
+
+  
+    
+  <div class="form-group">
+    <label class="control-label col-md-4"
+           for="unternehmen">Unternehmensname</label>
+    <div class="col-md-8">
+      <input cam-variable-name="name"
+             cam-variable-type="String"
+             id="name"
+             class="form-control"
+             type="text"
+             required />
+      
+    </div>
+  </div>
+  
+  
+    <div class="form-group">
+    <label class="control-label col-md-4"
+           for="anschrift">Anschrift</label>
+  </div>
+  
+  <div class="form-group">
+    <label class="control-label col-md-4"
+           for="strasze">Straße und Hausnummer</label>
+    <div class="col-md-8">
+      <input cam-variable-name="strasze"
+             cam-variable-type="String"
+             id="strasze"
+             class="form-control"
+             type="text"
+             required />
+      
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label class="control-label col-md-4"
+           for="zusatz">Zusatz</label>
+    <div class="col-md-8">
+      <input cam-variable-name="zusatz"
+             cam-variable-type="String"
+             id="zusatz"
+             class="form-control"
+             type="text"
+             />
+      
+    </div>
+  </div>
+  
+<div class="form-group">
+    <label class="control-label col-md-4"
+           for="post">Postleitzahl</label>
+    <div class="col-md-8">
+      <input cam-variable-name="post"
+             cam-variable-type="Double"
+             id="post"
+             name="post"
+             class="form-control"
+             type="text"
+             required />
+			 
+	</div>
+</div>
+
+  
+   <div class="form-group">
+    <label class="control-label col-md-4"
+           for="anschrift">Thema und Bewertung</label>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+    <div class="form-group">
+    <label class="control-label col-md-4"
+           for="thema">Themenvorschlag</label>
+    <div class="col-md-8">
+      <input cam-variable-name="thema"
+             cam-variable-type="String"
+             id="thema"
+             class="form-control"
+             type="text"
+             required />
+    </div>
+  </div>
+    <div class="form-group">
+    <label class="control-label col-md-4"
+           for="relevanz">Relevanz</label>
+    <div class="col-md-8">
+      <select cam-variable-name="kundenbeziehung"
+              cam-variable-type="String"
+              class="form-control">
+        <option>Stammkunde</option>
+        <option>Kunde</option>
+        <option>Kein Kunde</option>
+      </select>
+    </div>
+  </div>
+  
+    <div class="form-group">
+    <label class="control-label col-md-4"
+           for="bewertung">Artikelbewertung</label>
+    <div class="col-md-8">
+      <select cam-variable-name="bewertung"
+              cam-variable-type="String"
+              class="form-control">
+        <option>Guter Artikel</option>
+        <option>Durchschnittlicher Artikel</option>
+        <option>Schlechter Artikel</option>
+      </select>
+    </div>
+  </div>
+  
+    <div class="form-group">
+    <label class="control-label col-md-4"
+           for="zeitlosigkeit">Zeitlosigkeiteitlosigkeit</label>
+    <div class="col-md-8">
+      <select cam-variable-name="zeitlosigkeit"
+              cam-variable-type="Boolean"
+              class="form-control">
+        <option value="true">Ja</option>
+        <option value="false">Nein</option>
+      </select>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  </form>
